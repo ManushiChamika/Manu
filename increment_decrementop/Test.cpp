@@ -5,6 +5,10 @@
 // prefix ++num
 // postfix num++
 
+// counters
+// A variable in a program that is used to keep track of anything that must be counted.
+// Programmers define counters as integer variables in their programs.
+
 #include<iostream>
 using namespace std;
 int main()
