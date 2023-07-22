@@ -40,7 +40,7 @@
 // }
 
 
-// method 2: sirs method
+// method 2: sirs method(USING STATIC CAST)
 #include<iostream>
 using namespace std;
 int main()
@@ -57,7 +57,8 @@ int main()
     double average{0.0};
 
     average=static_cast<double>(total)/count; // static cast is used to give the decimal numbers for numbers not divisible by 3 
-
+    // average = (double)total/count; old style
+    
     cout << "The 3 numbers were:" << num1 << "," << num2 << "," << num3 << endl;
     cout << "The sum of the numbers is:" << total << endl;
     cout << "The average of the numbers is:" << average << endl;
