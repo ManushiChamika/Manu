@@ -38,8 +38,9 @@
 
 // }
 
-// ==============================================================================================
+// ========================================================================================================
     // Example - 2
+    // ------------------------------------------My answer-------------------------------------------------
     /*
     ----Shipping cost calculator----
     Ask the user for package dimension in inches
@@ -52,59 +53,63 @@
     If package volume is greater than 500 cubic inches there is a 25% surcharge
     */
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    int pack_dimension {};
-    int length{}, width{}, height{};
-    double base_cost{2.50};
-    double cost{};
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int pack_dimension {};
+//     int length{}, width{}, height{};
+//     double base_cost{2.50};
+//     double cost{};
 
-    cout << "Enter the length:";
-    cin >> length;
-    cout << "Enter the width:";
-    cin >> width;
-    cout << "Enter the height:";
-    cin >> height;
+//     cout << "Enter the length:";
+//     cin >> length;
+//     cout << "Enter the width:";
+//     cin >> width;
+//     cout << "Enter the height:";
+//     cin >> height;
 
-    pack_dimension = (length * width * height);
-    cout << "The package dimension is " << pack_dimension << " cubic inches." << endl;
+//     pack_dimension = (length * width * height);
+//     cout << "The package dimension is " << pack_dimension << " cubic inches." << endl;
 
-    if(pack_dimension <= 1000)
-    {
-        cout << pack_dimension << " is less than or equal to 1000" << endl;
-        cout << "The package can be shipped " << endl;
+//     if(pack_dimension <= 1000)
+//     {
+//         cout << pack_dimension << " is less than or equal to 1000" << endl;
+//         cout << "The package can be shipped " << endl;
     
-        if (pack_dimension > 100 && pack_dimension < 501 )
-        {
-            cout << "There is a 10% surcharge if the package volume is > 100 cubic inches" << endl;
-            cost = base_cost + (base_cost * 0.10);
-            cout << pack_dimension << " cubic inches is greater than 100 cubic inches, Therefore the total charge is: " 
-            << cost <<  endl; 
-        }
-        else if (pack_dimension > 500)
-        {
-            cout << "There is a 25% surcharge if the package volume is > 500 cubic inches " << endl;
-            cost = base_cost + (base_cost * 0.25);
-            cout << pack_dimension << " cubic inches is greater than 500 cubic inches, Therefore the total charge is: "
-             << cost << endl;
-        }
-        else
-        {
-            cout << " No surcharge is added" << endl;
-            cost = base_cost;
-        }
+//         if(pack_dimension > 100 && pack_dimension < 501)
+//         {
+//             cout << "There is a 10% surcharge if the package volume is > 100 cubic inches" << endl;
+//             cost = base_cost + (base_cost * 0.10);
+//             cout << pack_dimension << " cubic inches is greater than 100 cubic inches, Therefore the total charge is: " 
+//             << cost <<  endl; 
+//         }
+//         else if(pack_dimension > 500)
+//         {
+//             cout << "There is a 25% surcharge if the package volume is > 500 cubic inches " << endl;
+//             cost = base_cost + (base_cost * 0.25);
+//             cout << pack_dimension << " cubic inches is greater than 500 cubic inches, Therefore the total charge is: "
+//              << cost << endl;
+//         }
+//         else
+//         {
+//             cout << " No surcharge is added" << endl;
+//             cost = base_cost;
+//         }
 
-            cout << "\nThe total charge will be: " << cost << endl;
+//             cout << "\nThe total charge will be: " << cost << endl;
 
-    }  
-    else
-    {
-        cout <<"The package cannot be shipped." << endl;
-    }
+//     }  
+//     else
+//     {
+//         cout <<"The package cannot be shipped." << endl;
+//     }
       
-      cout << endl;
-      return 0;
+//       cout << endl;
+//       return 0;
 
-}
+// }
+
+
+// ============================================================================================================
+/*--------------------------------------------------sirs answer-----------------------------------------------*/
