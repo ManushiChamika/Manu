@@ -1,0 +1,23 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+
+.box > .done{ 
+    /* or we can set it to (.box > p) */
+    color: firebrick;
+}
+
+.box ul{
+    /* or can use .box li */
+    color: blue;
+}
+
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    /* or ul > p.done */
+    font-size: 0.5rem;
+}
