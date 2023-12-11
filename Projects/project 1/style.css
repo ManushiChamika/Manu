@@ -1,0 +1,44 @@
+html{
+    background-color: #e6f3ff;
+    padding: 12%;
+}
+h2 {
+    color: blueviolet;
+    font-style: italic;
+}
+cakes{
+    color: firebrick;
+    font-weight: bold;
+}
+
+img{
+    width: 320px;
+    float: right;
+}
+
+.items{
+    width: 100%;
+    border-color: black;
+    border-width: 1px;
+}
+.price{
+    margin-top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+    padding: 16px;
+}
+td, th {
+    text-align: left;
+    padding:16px;
+}
+
+footer{
+    background-color: orange;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
