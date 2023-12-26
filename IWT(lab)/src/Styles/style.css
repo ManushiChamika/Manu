@@ -33,7 +33,7 @@ hr{
 }
 a{
    display:block;
-   width: 100%;
+   /* width: 100%; */
    padding: 15px;
    background-color: #0071c5;
    text-decoration: none;
@@ -48,8 +48,8 @@ a{
    margin: 5px;
    padding: 10px;
    overflow: hidden;
-   display: flex;
-   justify-content: space-around;
+   /* display: flex; */
+   /* justify-content: space-around; */
    padding: 0;
 }
 .link a:hover{
