@@ -22,7 +22,7 @@ function addTask(){
 //When we cut it erases from the to-do list
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
-        //Toggle
+        //Toggle if activity done
         e.target.classList.toggle("checked");
     }
     else if(e.target.tagName === "SPAN"){
