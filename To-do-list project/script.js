@@ -7,20 +7,19 @@ function addTask(){
     }
     else{
         let li = document.createElement("li");
-        //important
+        //Important
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
-        // add close item
+        //Add close item
         let span = document.createElement("span");
         span.innerHTML ="\u00d7";
         li.appendChild(span);
     }
-    //to remove the text after added
+    //To remove the text after added
     inputBox.value="";
-
 }
 
-//when we cut it erases from the to-do list
+//When we cut it erases from the to-do list
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         //Toggle
