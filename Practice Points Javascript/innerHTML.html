@@ -1,0 +1,22 @@
+<!-- innerHtml in javascript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function showCommentForm(){
+            var data= "Name:<br> <input type='text' name='name'><br> Comment:<br> <textarea rows='5' cols='50'></textarea><br> <input type='submit' value='comment'>";
+            document.getElementById('myLocation').innerHTML=data;
+        }
+    </script>
+    <form name ="my form">
+        <input type ="button" value="comment" onclick="showCommentForm()">
+        <div id="myLocation"></div>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
