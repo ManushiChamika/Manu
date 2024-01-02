@@ -1,0 +1,32 @@
+<!-- Javascript retype password validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function matchPass(){
+            var firstPassword=document.f1.password.value;
+            var secondPassword=document.f1.password2.value;
+
+            if(firstPassword==secondPassword){
+                return true;
+            }
+            else{
+                alert("password must be same!");
+                return false;
+            }
+        }
+    </script>
+     <form name="f1" action="register.jsp" onsubmit="return matchPass()">
+        password:<input type="password" name="password"/>
+        <br/>
+        Re-enter Password:<input type="password" name="password2"/><br/>
+        <input type="submit">
+    </form>
+</head>
+<body>
+   
+</body>
+</html>
