@@ -1,0 +1,28 @@
+<!-- Formatting with getElementById() -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function changeColor(){
+        var newColor = document.getElementById('colorPicker').value;
+        document.getElementById('colorMsg').style.background = newColor;   
+    }
+    </script>
+    <div id="colorMsg" style="font-size:18px;width:150px;height:100px;padding:5px">choose a background color...</div>
+    <select id="colorPicker" onchange="Javascript:changeColor()">
+        <option value="transparent">None</option>
+        <option value="yellow">yellow</option>
+        <option value="salmon">salmon</option>
+        <option value="lightblue">light blue</option>
+        <option value="limegreen">lime green</option>
+        <option value="lightgrey">light grey</option>
+        <option value="blue">blue</option>
+    </select>
+</head>
+<body>
+    
+</body>
+</html>
