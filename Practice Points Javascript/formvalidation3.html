@@ -1,0 +1,29 @@
+<!-- Javascript number validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+            var num=document.myForm.num.value;
+            if(isNaN(num)){
+                document.getElementById("numLoc").innerHTML="Enter numeric value only";
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
+    <form name="myForm" onsubmit="return validate()">
+        Number: <input type="text" name="num">
+        <span id="numLoc"></span><br/>
+        <input type="submit" value="submit">
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
+
