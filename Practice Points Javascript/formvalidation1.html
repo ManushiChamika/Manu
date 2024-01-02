@@ -1,0 +1,30 @@
+<!-- Javascript form validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validateForm(){
+            var name=document.myForm.name.value;
+            var password=document.myForm.password.value;
+            if(name==null || name==""){
+                alert("Name can't be blank");
+                return false;
+            }else if (password.length < 6){
+                alert("password must be at least 6 characters long.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm" method="post" action="abc.jsp" onsubmit="return validateForm()">
+    Name:<input type="text" name="name"><br/>
+    password:<input type="password" name="password"><br/>
+    <input type="submit" value="register">
+    </form>
+    
+</body>
+</html>
