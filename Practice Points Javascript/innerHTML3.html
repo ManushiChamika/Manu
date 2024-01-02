@@ -1,0 +1,22 @@
+<!-- Example of innerHTML With User Input -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showMsg(){
+            var userInput = document.getElementById('userInput').value;
+            //the below code is used to rewrite the text entered inside the box
+            document.getElementById('userMsg').innerHTML = userInput;
+        }
+    </script>
+    <!-- onkeyup is used to connect userMsg-->
+    <input type="input" maxlength="40" id="userInput" onkeyup="showMsg()" placeholder="Enter text here...">
+    <p id="userMsg"></p>
+</head>
+<body>
+    
+</body>
+</html>
