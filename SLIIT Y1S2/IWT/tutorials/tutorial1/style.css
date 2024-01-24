@@ -1,0 +1,24 @@
+html{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+.table1, th, td{
+    border: 1px solid black;
+    width: 100%;
+    height:50px;
+    background-color: lightpink;
+}
+
+.table2, th, td{
+    border: 1px solid black;
+    width:50%;
+}
