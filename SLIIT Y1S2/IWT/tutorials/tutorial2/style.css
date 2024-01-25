@@ -6,10 +6,19 @@ th{
     color: whitesmoke;
     text-shadow:2px 1px grey;
 }
+td{
+    padding: 10px;
+}
+
 tr:nth-child(odd){
     background-color: #dce9f5;
 }
 
 tr:nth-child(even){
     background-color: #e0e9ef;
+}
+
+.firstColumn{
+    color: rgb(62, 61, 61);
+    font-weight: bold;
 }
