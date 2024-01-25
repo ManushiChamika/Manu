@@ -1,0 +1,15 @@
+table, th, tr{
+    border-collapse: collapse;
+}
+th{
+    background-color: #90B4D6;
+    color: whitesmoke;
+    text-shadow:2px 1px grey;
+}
+tr:nth-child(odd){
+    background-color: #dce9f5;
+}
+
+tr:nth-child(even){
+    background-color: #e0e9ef;
+}
