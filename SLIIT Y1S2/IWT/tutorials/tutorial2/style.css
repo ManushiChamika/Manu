@@ -22,3 +22,20 @@ tr:nth-child(even){
     color: rgb(62, 61, 61);
     font-weight: bold;
 }
+
+legend{
+    font-size: 20px;
+}
+
+.form input{
+    float: right;
+}
+
+.btn{
+    background-color: rgb(40, 156, 100);
+    color: aliceblue;
+    border-radius: 5px;
+    float: right;
+    height: 30px;
+    border-color:  rgb(40, 156, 100);
+}

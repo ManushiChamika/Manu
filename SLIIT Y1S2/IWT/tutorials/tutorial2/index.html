@@ -39,7 +39,60 @@
                 <td>sat,11 November 2020 11am-2pm</td>
                 <td>sat,18 November 2020 11am-4pm</td>
             </tr>
-        </table>
+        </table>  
+
+        <div>
+            <fieldset>
+            <legend><i>Register your interest</i></legend><br/>
+            <form class="form">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name"><br/>
+                <br/>
+                <label for="email">Your email: </label>
+                <input type="text" id="email" name="email">
+            </form>
+
+            <br/><br/>
+
+            <form class="selecting">
+                <label for="cars"><b>Your closest center : </b></label>
+                <select id="center" name="center" form="center">
+                    <option value="Malabe">Malabe</option>
+                    <option value="Metro">Metro</option>
+                    <option value="Kandy">Kandy</option>
+                </select>
+            </form>
     
+            <br/><br/>
+
+            <form action="checkboxes">
+                <label><b>Select The Session :</b></label><br/>
+                <input type="checkbox" id="web" name="web" value="languages">
+                <label for="web"> Introduction to web </label><br>
+                <input type="checkbox" id="html" name="html" value="languages">
+                <label for="html"> HTML & CSS </label><br>
+                <input type="checkbox" id="javascript" name="javascript" value="languages">
+                <label for="javascript"> Javascript </label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="languages">
+                <label for="vehicle3"> PHP & MYSQL </label><br>
+              </form>
+
+            <br/><br/>
+
+              <form>
+                <label> <b>Are you a SLIIT student?</b> </label>
+                <input type="radio" id="yes" name="yes" value="value">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="no" value="value">
+                <label for="no">No</label><br>  
+              </form>
+
+            <br/>
+            </fieldset>
+        </div>
+
+        <br/>
+
+        <button type="button" class="btn"><b>Register</b></button>
 </body>
 </html>
